@@ -60,8 +60,8 @@ while True: # Ciclo para hacer menús
                     print(f"Producto: {i[0]} \nCantidad: {i[1]} piezas \nPrecio unitario: ${i[2]} \nMonto total: ${i[2]}")
                     print("-" * 25)
                     print()
-    else:
-        print("No se encontro la venta con el codigo ingresado")
+        else:
+             print("No se encontro la venta con el codigo ingresado")
     if opcion == 3:
         print("EJECUCION FINALIZADA")
         break # Rompe el ciclo principal
